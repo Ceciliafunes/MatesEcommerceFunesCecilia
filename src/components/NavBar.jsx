@@ -1,7 +1,7 @@
-import "./NavBar.css"
-import CartWidget from "./CartWidget"
-import logo from "../img/logo.png"
-import { BiBorderRadius } from "react-icons/bi"
+import "./NavBar.css";
+import CartWidget from "./CartWidget";
+import logo from "../img/logo.png";
+
 
 const NavBar = () => {
 
