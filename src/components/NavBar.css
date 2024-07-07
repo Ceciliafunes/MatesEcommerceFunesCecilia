@@ -1,16 +1,6 @@
-#root {
-    width: 100%;
 
-}
 
-nav ul li a {
-    text-align: none;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 0.7375rem;
-    padding: 0.1875rem;
-    transition: 0.5s;
-}
+
 
 .barranavegacion {
     width: 100%;
@@ -28,31 +18,19 @@ nav ul li a {
     top: 0;
 }
 
-.navbar .nav-link {
+.nav-item {
     color: yellow;
+    text-align: none;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.7375rem;
+    padding: 0.1875rem;
+    transition: 0.5s;
+    
 }
 
-.navbar .nav-link:hover {
+.nav-item:hover {
     color: white;
-}
-
-
-.navbar .navbar-toggler:hover {
-    background-color: rgba(255, 255, 0, 0.721);
-}
-
-.navbar .barraItems .dropdown-menu {
-    background-color: black;
-}
-
-.navbar .barraItems .dropdown-menu .dropdown-item {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar .barraItems .dropdown-menu .dropdown-item:hover {
-    color: yellow;
-    background-color: transparent;
 }
 
 .cartCarrito {

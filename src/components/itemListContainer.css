@@ -4,9 +4,53 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
-.item-list-container h1 {
+.item-list-container .bienvenida {
     font-size: 3rem;
     font-weight: bold;
     -webkit-text-fill-color: yellow;
     -webkit-text-stroke: .125rem black;
+}
+.itemlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    row-gap: 1.25rem;
+    column-gap: 1.25rem;
+}
+.card {
+    padding: .3125rem;
+}
+.card-title {
+    padding: .625rem .625rem .625rem .625rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: inherit;
+}
+.precioCard {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.vermas {
+    text-decoration: none;
+    padding: .3125rem;
+    border: .125rem solid gray;
+    color: black;
+    background-color: rgba(255, 255, 8, 0.927);
+    border-radius: .3125rem;
+}
+.vermas:hover {
+    font-weight: bold;
+}
+
+.imagen-itemlist {
+    width: 18rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.imagen-itemlist img{
+    width: 100%;
+
+    object-fit: cover;
+    border-radius: 5px;
 }

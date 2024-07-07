@@ -1,9 +1,11 @@
 import { ClockLoader } from "react-spinners";
 
+import "./Loading.css"
+
 const Loading = () => {
     return (
-    <div>
-        <ClockLoader />
+    <div className="loading">
+        <ClockLoader color="yellow" />
     </div>
     )
 }

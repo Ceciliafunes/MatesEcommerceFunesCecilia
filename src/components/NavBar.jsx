@@ -17,11 +17,11 @@ const NavBar = () => {
                 </button>
 
                 <div className="collapse navbar-collapse barraItems" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <Link to="/" className="nav-item active categorias">inicio </Link>
-                        <Link to="/mates" className="dropdown-item" href="">mates</Link>
-                        <Link to="/termos y accesorios" className="dropdown-item" href="">Termos y accesorios</Link>
-                        <Link to="/combos" className="dropdown-item" href="">combos</Link>
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 categorias">
+                        <Link to="/" className="nav-item active inicio">Inicio </Link>
+                        <Link to="/categoria/mates" className="nav-item active  mates" href="">Mates</Link>
+                        <Link to="/categoria/termos y accesorios" className="nav-item active termos" href="">Termos y accesorios</Link>
+                        <Link to="/categoria/combos" className="nav-item active combos" href="">Combos</Link>
 
                     </ul>
                     <form className="d-flex cartCarrito" role="search">

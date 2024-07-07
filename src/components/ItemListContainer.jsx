@@ -53,8 +53,8 @@ const ItemListContainer = ({titulo}) => {
 
 
   return (
-    <div className="item-list-container">
-      <h1> {titulo} </h1>
+    <div className="item-list-container container">
+      <h1 className="bienvenida"> {titulo} </h1>
       { //si is loading es true se muestra la pantalla de carga, si es falso muestra 
       //los productos
         isLoading ? <Loading />  : <ItemList productos = {productos} />

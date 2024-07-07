@@ -13,10 +13,9 @@ function App() {
 
       <Routes>
         
-        <Route path="/" element={<ItemListContainer />} />
-        <Route path="/productos/:idCategoria" element={<ItemListContainer />} />
+        <Route path="/" element={<ItemListContainer titulo="BIENVENIDOS A TRAMICHI MATES" />} />
+        <Route path="/categoria/:idCategoria" element={<ItemListContainer />} />
         <Route path="/detalle/:idProducto" element={<ItemDetailContainer />} />
-
       </Routes>
 
 

@@ -3,112 +3,112 @@
 const productos = [
     {
         id: 1,
-        nombre: "mate imperial",
-        descripcion: "mate imperial premium de calabaza seleccionada con virola de alpaca",
+        nombre: "Mate Imperial",
+        descripcion: "Mate imperial premium de calabaza seleccionada con virola de alpaca, elaborado por artesanos expertos. NO incluye bombilla",
         stock: 8,
         categoria: "mates",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/s52j6jkvvumi8c8my4ns",
         precio: 27000
     },
 
     {
         id: 2,
-        nombre: "mate camionero",
-        descripcion: "camionero de calabaza, forrado en cuero con virola de acero inoxidable",
+        nombre: "Mate Camionero",
+        descripcion: "Camionero de calabaza, forrado en cuero con virola de acero inoxidable",
         stock: 3,
         categoria: "mates",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/miph9fjotvotah3ns9df",
         precio: 17000
     },
 
     {
         id: 3,
-        nombre: "mate torpedo",
-        descripcion: "mate torpedo premium, de calabaza seleccionada con virola de alpaca cincelada",
+        nombre: "Torpedo Premium",
+        descripcion: "Mate torpedo premium, de calabaza seleccionada con virola de alpaca cincelada",
         stock: 5,
         categoria: "mates",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/t1bdu2orkpf64ephckd6",
         precio: 24900
     },
 
     {
         id: 4,
-        nombre: "mate camionero de algarrobo",
-        descripcion: "camionero de algarrobo con virola de acero inoxidable lisa",
+        nombre: "Camionero de Algarrobo",
+        descripcion: "Camionero de algarrobo con virola de acero inoxidable lisa",
         stock: 8,
         categoria: "mates",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/fq9uyguxgywp0mgihdom",
         precio: 10500
     },
 
     {
         id: 5,
-        nombre: "termo media manija",
-        descripcion: "termo de acero inoxidable media manija 1L",
+        nombre: "Termo Media Manija 1L",
+        descripcion: "Termo de acero inoxidable doble capa media manija 1L, pico cebador matero, mantiene el agua entre 12 y 24hs.",
         stock: 18,
         categoria: "termos y accesorios",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/xcba5m73jitnudhbuakr",
         precio: 19900
     },
 
     {
         id: 6,
-        nombre: "bombilla pico loro",
-        descripcion: "bombilla pico loro de acero inoxidable",
+        nombre: "Bombilla Pico Loro de Acero",
+        descripcion: "Bombilla pico loro de acero inoxidable",
         stock: 20,
         categoria: "termos y accesorios",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/qa8aqifrlarslvbzu8a8",
         precio: 5000
     },
 
     {
         id: 7,
-        nombre: "canasta 100% cuero",
-        descripcion: "canasta matera 100% cuero legítimo",
+        nombre: "Canasta 100% Cuero",
+        descripcion: "Canasta matera 100% cuero legítimo",
         stock: 2,
         categoria: "termos y accesorios",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/z1qbyefcgcnx13nhlz6s",
         precio: 27000
     },
 
     {
         id: 8,
-        nombre: "canasta simil",
-        descripcion: "canasta matera simil cuero negra",
+        nombre: "Canasta Simil",
+        descripcion: "Canasta matera simil cuero negra",
         stock: 1,
         categoria: "termos y accesorios",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/taskpvksf6s0ztpgck8e",
         precio: 11000
     },
 
     {
         id: 9,
-        nombre: "combo imperial completo",
-        descripcion: "incluye: mate imperial, bombilla, termo, yerbero y canasta simil",
+        nombre: "Estuches de Cuero",
+        descripcion: "Estuches yerbero y azucarero de ecocuero, anti hongos, anti humedad, capacidad: 350gr. de yerba y 150gr de azúcar, son impermeables. Super practicos y modernos",
         stock: 2,
-        categoria: "combos",
-        imagen: "",
-        precio: 51000
+        categoria: "termos y accesorios",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/vc8nclg9khdg6epohlne",
+        precio: 8300
     },
 
     {
         id: 10,
-        nombre: "combo imperial y termo",
-        descripcion: "mate imperial, bombilla y termo media manija",
+        nombre: "Combo Imperial y Termo",
+        descripcion: "mate imperial, bombilla y termo media manija. Con yerbero encastrable de regalo",
         stock: 4,
         categoria: "combos",
-        imagen: "",
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/snurbpet4zxhpoihyvcp",
         precio: 41000
     },
 
     {
         id: 11,
-        nombre: "combo torpedo y termo",
-        descripcion: "incluye: mate torpedo premium, bombilla y termo media manija",
+        nombre: "Combo Camionero Full",
+        descripcion: "incluye: mate camionero de calabaza forrado en cuero con virola de acero inoxidable lisa, bombilla pico loro, canasta simil y termo media manija",
         stock: 6,
         categoria: "combos",
-        imagen: "",
-        precio: 38000
+        imagen: "https://res.cloudinary.com/dkb6wt24n/image/upload/f_auto,q_auto/v1/matesTramichi/cjh4zyc4tp8kfeusloif",
+        precio: 48000
     },
 
 
